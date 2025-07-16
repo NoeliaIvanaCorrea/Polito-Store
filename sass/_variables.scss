@@ -1,0 +1,15 @@
+// Definición del color principal para textos
+$text-color: #523a2d; 
+// Reseteo general de márgenes y paddings para todos los elementos
+*{
+    margin: 0;
+    padding: 0;
+}
+// Estilos para el cuerpo de la página
+body{
+    background-image: url(../Multimedia/nuevofondoprueba.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}

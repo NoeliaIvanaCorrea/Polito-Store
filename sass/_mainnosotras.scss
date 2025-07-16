@@ -1,0 +1,47 @@
+@use "variables";
+// Contenedor fila dentro de la sección "Nosotras"
+.main-nosotras .fila {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+// Clase para invertir el orden de los elementos en la fila (para alternar diseño)
+.main-nosotras .invertida {
+    flex-direction: row-reverse;
+}
+// Estilo para el párrafo dentro de "Nosotras"
+.main-nosotras .parrafo {
+    width: 70%; 
+    color: variables.$text-color; 
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.6;
+}
+// Estilo para la imagen dentro de "Nosotras"
+.main-nosotras .img {
+    width: 25%; 
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid darkgoldenrod;
+}
+// Media query para pantallas pequeñas (tablets y móviles)
+@media (max-width: 768px) {
+.main-nosotras .fila,
+.main-nosotras .invertida {
+    flex-direction: column;
+    align-items: center;
+}
+.main-nosotras .img,
+.main-nosotras .parrafo {
+    width: 100%;
+    text-align: center;
+}
+.main-nosotras .parrafo {
+    font-size: 18px;
+}
+}
