@@ -15,22 +15,29 @@ Se trata de un sitio web estático con diseño responsive, usando Sass para la g
 - HTML5
 - Sass (SCSS)
 - CSS3
+- 
+## Sitio en vivo
+Podés ver el proyecto desplegado y funcionando en:
 
+https://resonant-sunshine-c42fd2.netlify.app/
+
+## Autor
+Noelia Ivana Correa
+
+Este proyecto fue realizado como parte del curso de Desarrollo Web en Coderhouse.
 ## Cómo usar
 
 Clonar el repositorio:
 
 ```bash
 git clone https://github.com/NoeliaIvanaCorrea/Polito-Store.git
-
 Para compilar los estilos Sass, usar el siguiente comando desde la raíz del proyecto:
 
 bash
+Copiar
+Editar
 sass --watch sass/style.scss:css/style.css
-
 Abrir el archivo index.html en el navegador para ver el sitio web.
 
-## Autor
-Noelia Ivana Correa
 
-Este proyecto fue realizado como parte del curso de Desarrollo Web en Coderhouse.
+
